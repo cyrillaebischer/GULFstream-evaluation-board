@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="shiftregsynch_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="shiftregsynch_top" />
+            <top_module name="utilitypkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1007833334fs"></ZoomStartTime>
+      <ZoomEndTime time="1051633335fs"></ZoomEndTime>
+      <Cursor1Time time="1019850000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="179"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/shiftregsynch_top/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/start_test" type="logic">
+      <obj_property name="ElementShortName">start_test</obj_property>
+      <obj_property name="ObjectShortName">start_test</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/glb_error_s" type="logic">
+      <obj_property name="ElementShortName">glb_error_s</obj_property>
+      <obj_property name="ObjectShortName">glb_error_s</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider30">
+      <obj_property name="label">Clock Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/clk_div" type="logic">
+      <obj_property name="ElementShortName">clk_div</obj_property>
+      <obj_property name="ObjectShortName">clk_div</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/clk_divider/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider69">
+      <obj_property name="label">Global</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FFA500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/shift_reg/data_i" type="logic">
+      <obj_property name="ElementShortName">data_i</obj_property>
+      <obj_property name="ObjectShortName">data_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/comma_s" type="logic">
+      <obj_property name="ElementShortName">comma_s</obj_property>
+      <obj_property name="ObjectShortName">comma_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/hdr_bit_err" type="logic">
+      <obj_property name="ElementShortName">hdr_bit_err</obj_property>
+      <obj_property name="ObjectShortName">hdr_bit_err</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider39">
+      <obj_property name="label">Synchronization</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/commalink/state_s" type="other">
+      <obj_property name="ElementShortName">state_s</obj_property>
+      <obj_property name="ObjectShortName">state_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/commalink/err_i" type="logic">
+      <obj_property name="ElementShortName">err_i</obj_property>
+      <obj_property name="ObjectShortName">err_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/locked_sig_o" type="array">
+      <obj_property name="ElementShortName">locked_sig_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">locked_sig_o[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider25">
+      <obj_property name="label">Decoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/U_Decode8b10b/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/U_Decode8b10b/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/rxCodeErr" type="logic">
+      <obj_property name="ElementShortName">rxCodeErr</obj_property>
+      <obj_property name="ObjectShortName">rxCodeErr</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/U_Decode8b10b/dispErr" type="logic">
+      <obj_property name="ElementShortName">dispErr</obj_property>
+      <obj_property name="ObjectShortName">dispErr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/U_Decode8b10b/dataKOut" type="logic">
+      <obj_property name="ElementShortName">dataKOut</obj_property>
+      <obj_property name="ObjectShortName">dataKOut</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider30">
+      <obj_property name="label">TOP word pack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/data8b_s" type="array">
+      <obj_property name="ElementShortName">data8b_s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data8b_s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/word_pack_s" type="array">
+      <obj_property name="ElementShortName">word_pack_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">word_pack_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/word_output_s" type="logic">
+      <obj_property name="ElementShortName">word_output_s</obj_property>
+      <obj_property name="ObjectShortName">word_output_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/word_cnt_s" type="array">
+      <obj_property name="ElementShortName">word_cnt_s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">word_cnt_s[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/hdr_bit_s" type="logic">
+      <obj_property name="ElementShortName">hdr_bit_s</obj_property>
+      <obj_property name="ObjectShortName">hdr_bit_s</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider25">
+      <obj_property name="label">BERT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">bert</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/shiftregsynch_top/en_bert_s" type="logic">
+         <obj_property name="ElementShortName">en_bert_s</obj_property>
+         <obj_property name="ObjectShortName">en_bert_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/bit_in_s" type="logic">
+         <obj_property name="ElementShortName">bit_in_s</obj_property>
+         <obj_property name="ObjectShortName">bit_in_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/d_in_mem" type="logic">
+         <obj_property name="ElementShortName">d_in_mem</obj_property>
+         <obj_property name="ObjectShortName">d_in_mem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/data_bert_s[0]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">ref_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/addr_bert_s" type="array">
+         <obj_property name="ElementShortName">addr_bert_s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_bert_s[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/bert_bit_cnt_s" type="array">
+         <obj_property name="ElementShortName">bert_bit_cnt_s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">bert_bit_cnt_s[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/bert_err_cnt_s" type="array">
+         <obj_property name="ElementShortName">bert_err_cnt_s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">bert_err_cnt_s[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider119">
+      <obj_property name="label">CT counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/CT_counter_s" type="array">
+      <obj_property name="ElementShortName">CT_counter_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CT_counter_s[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/ro_counter_s" type="array">
+      <obj_property name="ElementShortName">ro_counter_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ro_counter_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider32">
+      <obj_property name="label">RAM / Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/adr_fsm/valid_i" type="logic">
+      <obj_property name="ElementShortName">valid_i</obj_property>
+      <obj_property name="ObjectShortName">valid_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shiftregsynch_top/adr_fsm/wr_data_out" type="array">
+      <obj_property name="ElementShortName">wr_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group20" type="group">
+      <obj_property name="label">RAM / Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/shiftregsynch_top/addr_wr_out" type="array">
+         <obj_property name="ElementShortName">addr_wr_out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_wr_out[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/wr_en_out" type="logic">
+         <obj_property name="ElementShortName">wr_en_out</obj_property>
+         <obj_property name="ObjectShortName">wr_en_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/wr_ro_out" type="array">
+         <obj_property name="ElementShortName">wr_ro_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_ro_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/err_code_out" type="array">
+         <obj_property name="ElementShortName">err_code_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">err_code_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/shiftregsynch_top/adr_fsm/state_s" type="other">
+         <obj_property name="ElementShortName">state_s</obj_property>
+         <obj_property name="ObjectShortName">state_s</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

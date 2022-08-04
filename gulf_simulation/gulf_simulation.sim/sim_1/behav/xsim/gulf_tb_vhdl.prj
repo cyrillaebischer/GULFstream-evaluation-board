@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../pynq_setup_gulf.srcs/sources_1/new/data_fsm.vhd" \
+"../../../../pynq_setup_gulf.srcs/sources_1/new/gulf_top.vhd" \
+"../../../../pynq_setup_gulf.srcs/sources_1/new/gulf_tb.vhd" \
+
+# Do not sort compile order
+nosort

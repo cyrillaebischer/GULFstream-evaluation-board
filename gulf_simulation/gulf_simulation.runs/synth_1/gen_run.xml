@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1659469969">
+  <File Type="PA-TCL" Name="gulf_top.tcl"/>
+  <File Type="REPORTS-TCL" Name="gulf_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="gulf_top.vds"/>
+  <File Type="RDS-UTIL" Name="gulf_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="gulf_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="gulf_top.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/data_rom_2/data_rom.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.srcs/sources_1/ip/data_rom_2/data_rom.xci"/>
+        <Attr Name="ImportTime" Val="1659485074"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_fsm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.srcs/sources_1/new/data_fsm.vhd"/>
+        <Attr Name="ImportTime" Val="1659484996"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gulf_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.srcs/sources_1/new/gulf_top.vhd"/>
+        <Attr Name="ImportTime" Val="1659484948"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/data_rom_ip.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.srcs/sources_1/data_rom_ip.coe"/>
+        <Attr Name="ImportTime" Val="1658364961"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/Pynq Setup/simRunTot.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/simRunTot.coe"/>
+        <Attr Name="ImportTime" Val="1659041742"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/data_rom_1/simRunTot.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.srcs/sources_1/ip/data_rom_1/simRunTot.coe"/>
+        <Attr Name="ImportTime" Val="1658190422"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/Pynq Setup/simRunTot_err1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/simRunTot_err1.coe"/>
+        <Attr Name="ImportTime" Val="1658257132"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/Pynq Setup/simRunTot_err2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/simRunTot_err2.coe"/>
+        <Attr Name="ImportTime" Val="1658257316"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/shiftRegSynch_v2/sim_files/run2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../shiftRegSynch_v2/sim_files/run2.coe"/>
+        <Attr Name="ImportTime" Val="1658446170"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/shiftRegSynch_v2/sim_files/run3.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../shiftRegSynch_v2/sim_files/run3.coe"/>
+        <Attr Name="ImportTime" Val="1658448862"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/shiftRegSynch_v2/sim_files/runTot.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../shiftRegSynch_v2/sim_files/runTot.coe"/>
+        <Attr Name="ImportTime" Val="1658537272"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/shiftRegSynch_v2/sim_files/runTotv2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../shiftRegSynch_v2/sim_files/runTotv2.coe"/>
+        <Attr Name="ImportTime" Val="1658537272"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/shiftRegSynch_v2/sim_files/bert.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../shiftRegSynch_v2/sim_files/bert.coe"/>
+        <Attr Name="ImportTime" Val="1658536461"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BA-GULFstream/shiftRegSynch_v2/sim_files/bert_gulf.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../shiftRegSynch_v2/sim_files/bert_gulf.coe"/>
+        <Attr Name="ImportTime" Val="1658537278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="gulf_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/physical.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.srcs/constrs_1/new/physical.xdc"/>
+        <Attr Name="ImportTime" Val="1659469959"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/physical.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>

@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug  2 13:20:53 2022
+# Process ID: 23656
+# Current directory: C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_SW_Test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2460 C:\Users\Cyrill\Documents\S6\BA-GULFstream\Final\gulfstream-evaluation-board\FW_SW_Test\FW_SW_Test.xpr
+# Log file: C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_SW_Test/vivado.log
+# Journal file: C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_SW_Test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_SW_Test/FW_SW_Test.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_project {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.xpr}
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+save_wave_config {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+current_project FW_SW_Test
+file mkdir C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_SW_Test/FW_SW_Test.sdk
+file copy -force C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_SW_Test/FW_SW_Test.runs/impl_1/GULF_Eval_Board_top.sysdef C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_SW_Test/export/GULF_Eval_Board_top.hdf
+
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+current_project pynq_setup_gulf
+set_property PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.runs/impl_1/gulf_top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"your_instance_name"}]]
+save_wave_config {C:/Users/Cyrill/Documents/S6/BA-GULFstream/Pynq Setup/pynq_setup_gulf/pynq_setup_gulf.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+save_project_as gulf_simulation C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/gulf_simulation -force
+import_files
+close_project
+open_project C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/gulf_simulation/gulf_simulation.xpr
+update_compile_order -fileset sources_1
+close_project
+close_project
+open_project C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/gulf_simulation/gulf_simulation.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Cyrill/Documents/S6/BA-GULFstream/shiftRegSynch_v2/shiftRegSynch.xpr
+update_compile_order -fileset sources_1
+save_project_as FW_testbench C:/Users/Cyrill/Documents/S6/BA-GULFstream/Final/gulfstream-evaluation-board/FW_testbench -force
+import_files
